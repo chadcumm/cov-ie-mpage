@@ -40,6 +40,7 @@
           },
           "configurations": {
             "production": {
+              "outputPath": "../p0665/cov-ie-mpage",
               "baseHref": "./index.html",
               "budgets": [
                 {
