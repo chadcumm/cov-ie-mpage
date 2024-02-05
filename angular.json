@@ -71,13 +71,13 @@
               "namedChunks": true
             },
             "cert": {
-              "outputPath": "../c0665/ach-patient-list"
+              "outputPath": "../c0665/cov-ie-mpage"
             },
             "mock": {
-              "outputPath": "../m0665/ach-patient-list"
+              "outputPath": "../m0665/cov-ie-mpage"
             },
             "build": {
-              "outputPath": "../b0665/ach-patient-list"
+              "outputPath": "../b0665/cov-ie-mpage"
             }
           },
           "defaultConfiguration": "production"
