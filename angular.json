@@ -69,19 +69,18 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "cert": {
+              "outputPath": "../c0665/ach-patient-list"
+            },
+            "mock": {
+              "outputPath": "../m0665/ach-patient-list"
+            },
+            "build": {
+              "outputPath": "../b0665/ach-patient-list"
             }
           },
-          "cert": {
-            "outputPath": "../c0665/ach-patient-list"
-          },
-          "mock": {
-            "outputPath": "../m0665/ach-patient-list"
-          },
-          "build": {
-            "outputPath": "../b0665/ach-patient-list"
-          }
-        },
-        "defaultConfiguration": "development"
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -96,14 +95,14 @@
             "development": {
               "browserTarget": "cov-ie-mpage:build:development"
             },
+            "build": {
+              "browserTarget": "cov-ie-mpage:build:build"
+            },
             "cert": {
-              "browserTarget": "problemlist:build:cert"
+              "browserTarget": "cov-ie-mpage:build:cert"
             },
             "mock": {
-              "browserTarget": "problemlist:build:mock"
-            },
-            "build": {
-              "browserTarget": "problemlist:build:build"
+              "browserTarget": "cov-ie-mpage:build:mock"
             }
           },
           "defaultConfiguration": "development"
